@@ -1,0 +1,20 @@
+/* Styles for Teams Component */
+.teams-container {
+    width: 100vw; /* Full width of the viewport */
+    height: 100vh; /* Full height of the viewport */
+    margin: 0; /* Remove default margin */
+    background-color:rgba(255, 238, 234, 255);
+    padding: 80px; /* Remove default padding */
+    display: flex; /* Flexbox for alignment */
+    flex-direction: column; /* Stack navbar and image vertically */
+    box-sizing: border-box; /* Include padding/border in element dimensions */
+    overflow: hidden; /* Prevent scrolling */
+}
+
+.teams-image {
+    flex: 1; /* Allow image to take the remaining space */
+    width: 100%; /* Stretch image to full width */
+    height: 100%; /* Stretch image to full height */
+    object-fit: contain; 
+    /* Ensures the image covers the entire area without distortion */
+}
